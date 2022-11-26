@@ -1,4 +1,4 @@
-import nodePolyfills from 'rollup-plugin-polyfill-node';
+import nodePolyfills from 'rollup/plugin-inject';
 import express from "express"
 import { dirname, join } from "path"
 import {fileURLToPath} from "url"
